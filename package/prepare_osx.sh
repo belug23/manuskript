@@ -1,6 +1,6 @@
 #!/bin/bash
 set -ev   # display each line executed along with output
-brew update
+# brew update
 # Upgrade to python 3.x
 brew upgrade python
 brew install enchant
