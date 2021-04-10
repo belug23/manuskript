@@ -2,7 +2,8 @@
 set -ev   # display each line executed along with output
 # brew update
 # Upgrade to python 3.x
-brew upgrade python
+# brew upgrade python
+python --version
 brew install enchant
 brew postinstall python   # this installs pip
 sudo -H pip3 install --upgrade pip setuptools wheel
